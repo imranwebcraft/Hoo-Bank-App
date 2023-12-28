@@ -1,4 +1,5 @@
 import style from './style';
+import { Navbar } from './components/index';
 
 const App = () => {
 	return (
@@ -6,7 +7,9 @@ const App = () => {
 			{/* Navbar Div */}
 			<div className={`${style.paddingX} ${style.flexCenter} text-white`}>
 				{/* Img */}
-				<div className={`${style.boxWidth}`}>Navbar</div>
+				<div className={`${style.boxWidth}`}>
+					<Navbar />
+				</div>
 			</div>
 
 			{/* Hero section */}
