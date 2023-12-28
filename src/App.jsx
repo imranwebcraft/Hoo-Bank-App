@@ -16,7 +16,7 @@ const App = () => {
 	return (
 		<div className="bg-primary w-full overflow-hidden">
 			{/* Navbar Div */}
-			<div className={`${style.paddingX} ${style.flexCenter} text-white`}>
+			<div className={`${style.paddingX} ${style.flexCenter}`}>
 				{/* Img */}
 				<div className={`${style.boxWidth}`}>
 					<Navbar />
