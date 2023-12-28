@@ -5,7 +5,7 @@ import {
 	Stats,
 	Billing,
 	Business,
-	CarDeal,
+	CardDeal,
 	Client,
 	CTA,
 	Footer,
@@ -33,7 +33,7 @@ const App = () => {
 			{/* Others Section section */}
 			<div className={`bg-primary ${style.flexStart} ${style.paddingX}`}>
 				<div className={`${style.boxWidth} text-white`}>
-					<Stats /> <Business /> <Billing /> <CarDeal /> <Testimonial />
+					<Stats /> <Business /> <Billing /> <CardDeal /> <Testimonial />
 					<Client /> <CTA /> <Footer />
 				</div>
 			</div>

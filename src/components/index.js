@@ -2,7 +2,7 @@ import Navbar from './Navbar';
 import Billing from './Billing';
 import Business from './Business';
 import Button from './Button';
-import CarDeal from './CarDeal';
+import CardDeal from './CardDeal';
 import Client from './Client';
 import CTA from './CTA';
 import FeadbackCard from './FeadbackCard';
@@ -18,7 +18,7 @@ export {
 	Billing,
 	Business,
 	Button,
-	CarDeal,
+	CardDeal,
 	Client,
 	CTA,
 	FeadbackCard,
